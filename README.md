@@ -25,3 +25,8 @@ This is an HTTP Server that is built in C for Linux Systems.
 * .png
 * .jpg
 * .ico
+
+# Questions?
+
+Contact:
+* marlonbair1@gmail.com
