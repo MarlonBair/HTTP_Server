@@ -15,6 +15,10 @@ $ git clone https://github.com/MarlonBair/HTTP_Server.git
 $ cd HTTP_Server/src
 $ make
 ```
+# Usage 
+
+1. Upload site files into static folder
+2. 
 
 # Supported Browsers
 
