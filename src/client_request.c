@@ -22,8 +22,22 @@ char* add_extension(char* input) {
         return "text/js";
     } else if(strcmp(fileExt, ".html") == 0) {
         return "text/html";
+    } else if(strcmp(fileExt, ".txt") == 0) {
+        return "text/plain";
     } else if(strcmp(fileExt, ".xml") == 0) {
-        return "text/xml";
+        return "application/xml";
+    } else if(strcmp(fileExt, ".json") == 0) {
+        return "application/json";
+    } else if(strcmp(fileExt, ".pdf") == 0) {
+        return "application/pdf";
+    } else if(strcmp(fileExt, ".doc") == 0) {
+        return "application/msword";
+    } else if(strcmp(fileExt, ".xls") == 0) {
+        return "application/vnd.ms-excel";
+    } else if(strcmp(fileExt, ".ppt") == 0) {
+        return "application/vnd.ms-powerpoint";
+    } else if(strcmp(fileExt, ".zip") == 0) {
+        return "application/zip";
     } else if(strcmp(fileExt, ".ttf") == 0) {
         return "font/ttf";
     } else if(strcmp(fileExt, ".woff") == 0) {
@@ -32,12 +46,20 @@ char* add_extension(char* input) {
         return "font/otf";
     } else if(strcmp(fileExt, ".png") == 0) {
         return "image/png";
-    } else if(strcmp(fileExt, ".jpg") == 0) {
+    } else if(strcmp(fileExt, ".gif") == 0) {
+        return "image/gif";
+    } else if(strcmp(fileExt, ".jpg") == 0 || strcmp(fileExt, ".jpeg") == 0) {
         return "image/jpeg";
     } else if(strcmp(fileExt, ".ico") == 0) {
         return "image/vnd.microsoft.icon";
-    } else if(strcmp(fileExt, ".txt") == 0) {
-        return "text/plain";
+    } else if(strcmp(fileExt, ".mp3") == 0) {
+        return "audio/mpeg";
+    } else if(strcmp(fileExt, ".wav") == 0) {
+        return "audio/wav";
+    } else if(strcmp(fileExt, ".mp4") == 0) {
+        return "video/mp4";
+    } else if(strcmp(fileExt, ".mpeg") == 0) {
+        return "video/mpeg";
     } else {
         return "application/octet-stream";
     }
