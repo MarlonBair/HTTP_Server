@@ -15,7 +15,8 @@ This is an HTTP Server that is built in C for Linux Systems. It allows for the h
 
 # Supported File Types
 
-* .html (Default)
+* .txt (Default)
+* .html
 * .js
 * .css
 * .xml
