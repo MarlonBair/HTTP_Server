@@ -1,3 +1,12 @@
 # HTTP Server
 
-This is a HTTP Server for Linux Systems.
+This is an HTTP Server that is built in C for Linux Systems. 
+
+# Supported Browsers
+
+ * Safari
+ * Firefox
+ 
+# Implementation
+
+* 
