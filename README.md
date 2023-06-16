@@ -20,13 +20,25 @@ This is an HTTP Server that is written in C for Linux Systems. It allows for the
 * .js
 * .css
 * .xml
+* .txt
+* .json
+* .pdf
+* .doc
+* .xls
+* .ppt
+* .zip
 * .ttf
 * .woff
 * .wot
 * .png
+* .gif
 * .jpg
+* .jpeg
 * .ico
-* .txt
+* .mp3
+* .wav
+* .mp4
+* .mpeg
 
 # Questions?
 
