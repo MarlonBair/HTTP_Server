@@ -18,7 +18,9 @@ $ make
 # Usage 
 
 1. Upload site files into static folder
-2. 
+2. ./server (-p INSERT_PORT_HERE) 
+    * Left blank the port will be set to 8080
+3. Access website on browser
 
 # Supported Browsers
 
