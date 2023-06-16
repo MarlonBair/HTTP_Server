@@ -8,6 +8,19 @@ This is an HTTP Server that is written in C for Linux Systems. It allows for the
 * Consistent error checking and handling is written throughout the server process, and messages are output to stdout.
 * The server exercises a graceful shutdown when a kill command is received
 
+# Installation
+
+```sh
+$ git clone https://github.com/MarlonBair/HTTP_Server.git
+$ cd HTTP_Server/src
+$ make
+```
+# Usage 
+
+1. Upload site files into static folder
+2. ```$ ./server (-p INSERT_PORT_HERE) ```
+    * Left blank the port will be set to 8080
+
 # Supported Browsers
 
  * Safari
