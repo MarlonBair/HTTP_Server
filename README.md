@@ -1,6 +1,6 @@
 # HTTP Server
 
-This is an HTTP Server that is built in C for Linux Systems. It allows for the hosting of websites and client GET requests. The server is concurrent and currently allows for up to 32 connections (more connections can be allowed by changing the maximum length in the server.h file).
+This is an HTTP Server that is built in C for Linux Systems. It allows for the hosting of websites and client GET requests. The server uses concurrency and currently allows for up to 32 connections (more connections can be allowed by changing the maximum length in the server.h file).
  
 # Implementation
 
