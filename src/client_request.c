@@ -36,8 +36,10 @@ char* add_extension(char* input) {
         return "image/jpeg";
     } else if(strcmp(fileExt, ".ico") == 0) {
         return "image/vnd.microsoft.icon";
-    } else {
+    } else if(strcmp(fileExt, ".txt") == 0) {
         return "text/plain";
+    } else {
+        return "application/octet-stream";
     }
 }
 // Allow GET requests and send back relevant file data
