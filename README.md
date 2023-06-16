@@ -1,2 +1,3 @@
-# HTTP_Server
-HTTP Server written in C for Linux Systems
+# HTTP Server
+
+This is a HTTP Server for Linux Systems.
