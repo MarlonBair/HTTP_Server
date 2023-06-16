@@ -81,7 +81,6 @@ void client_request(int fd){
     char *s = request;
     trim(s);
 
-	printf("%s\n", request);
     char *url;
     url = strsep(&s, " ");
     // If a GET request wasn't received
