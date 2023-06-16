@@ -14,7 +14,7 @@ void catch_signal(int signal) {
 // Gracefully shutdown server	
 void exit_server(int fd, struct epoll_event *events) {
 
-	 // Close listener socket
+    // Close listener socket
     e = close(fd);
     if(e == -1) { error("Close error"); }
 
@@ -26,10 +26,10 @@ void exit_server(int fd, struct epoll_event *events) {
 
 void run_server(int fd) {
 
-	// Number of sockets
+    // Number of sockets
     int fdsCount = 1;
 	    
-	// Collection of sockets and events data
+    // Collection of sockets and events data
     struct epoll_event event;
     struct epoll_event *events;
 
@@ -53,6 +53,7 @@ void run_server(int fd) {
     // Server loop
     for(; ;) {
 
+        // Check if shutdown signal received
     	if(to_shutdown) {
     	    exit_server(fd, events);
     	}
