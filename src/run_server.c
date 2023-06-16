@@ -29,7 +29,7 @@ void run_server(int fd) {
 	// Number of sockets
     int fdsCount = 1;
 	    
-	 // Collection of sockets and events data
+	// Collection of sockets and events data
     struct epoll_event event;
     struct epoll_event *events;
 
@@ -54,7 +54,7 @@ void run_server(int fd) {
     for(; ;) {
 
     	if(to_shutdown) {
-    		exit_server(fd, events);
+    	    exit_server(fd, events);
     	}
 
         // Poll sockets to see if client is connecting
