@@ -5,7 +5,7 @@ This is an HTTP Server that is built in C for Linux Systems. It allows for the h
 # Implementation
 
 * The server utilizes the epoll system call to allow for the efficeint handling of a multitude of connections
-* Consistent error checking and handling is written throughout the server process
+* Consistent error checking and handling is written throughout the server process, and messages are output to stdout.
 * The server exercises a graceful shutdown when a kill command is sent
 
 # Supported Browsers
