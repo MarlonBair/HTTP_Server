@@ -77,7 +77,7 @@ void client_request(int fd){
     int e = recv(fd, request, MAX_ANSWER, 0);
     if(e == 0) { return; }
 
-    //Trim answer
+    // Trim answer
     char *s = request;
     trim(s);
 
