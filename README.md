@@ -15,7 +15,7 @@ This is an HTTP Server that is built in C for Linux Systems. It allows for the h
 
 # Supported File Types
 
-* .txt (Default)
+* .bin (default)
 * .html
 * .js
 * .css
@@ -26,6 +26,7 @@ This is an HTTP Server that is built in C for Linux Systems. It allows for the h
 * .png
 * .jpg
 * .ico
+* .txt
 
 # Questions?
 
