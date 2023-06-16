@@ -20,6 +20,8 @@ char* add_extension(char* input) {
         return "text/css";
     } else if(strcmp(fileExt, ".js") == 0) {
         return "text/js";
+    } else if(strcmp(fileExt, ".html") == 0) {
+        return "text/html";
     } else if(strcmp(fileExt, ".xml") == 0) {
         return "text/xml";
     } else if(strcmp(fileExt, ".ttf") == 0) {
@@ -35,7 +37,7 @@ char* add_extension(char* input) {
     } else if(strcmp(fileExt, ".ico") == 0) {
         return "image/vnd.microsoft.icon";
     } else {
-        return "text/html";
+        return "text/plain";
     }
 }
 // Allow GET requests and send back relevant file data
